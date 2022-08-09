@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: public.ecr.aws/c6z2y1r3/naveen/jenkins-k8s:latest
+        image: public.ecr.aws/c6z2y1r3/naveen/jenkins-k8s:2022
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
